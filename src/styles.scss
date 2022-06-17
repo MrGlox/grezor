@@ -1,0 +1,25 @@
+body {
+}
+
+fieldset {
+  display: flex;
+  border-radius: 10px;
+  margin-bottom: 16px;
+
+  input {
+  }
+
+  label {
+    width: 100%;
+    padding: 16px 8px;
+    cursor: pointer;
+
+    > p {
+      margin: 0;
+    }
+
+    > span {
+      color: blue;
+    }
+  }
+}
